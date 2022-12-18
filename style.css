@@ -13,3 +13,27 @@ body{
     max-width: 1440px;
     margin: 0 auto;
   }
+.nav-list{
+    font-size: 25px ;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link:hover {
+    padding: 0 30px;
+    line-height: 50px;
+    transition: .5s;
+    cursor: pointer
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+  .nav-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #4d2323;
+  }
