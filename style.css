@@ -33,7 +33,11 @@ html {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
+    font: 200px;
   }
   .nav-item a:hover {
     color: #4d2323;
+  }
+  p {
+    font: 80%;
   }
